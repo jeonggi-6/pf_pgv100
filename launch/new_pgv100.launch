@@ -1,0 +1,5 @@
+<launch>
+    <node name="new_pgv100_node" pkg="pf_pgv100" type="new_pgv100_node" respawn="true" output="screen" > 
+        <!--param name="serial_name" value"/dev/ttyUSB0" /-->
+    </node>
+</launch>
